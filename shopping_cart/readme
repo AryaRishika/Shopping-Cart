@@ -1,0 +1,3 @@
+product_info : contains info of various products
+"index.html"
+Order fisrt saved in local storage then saved to database along with an order id
