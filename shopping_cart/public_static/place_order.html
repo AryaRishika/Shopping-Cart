@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./external_libs/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="place.css">
+
+</head>
+<body>
+<script src="./external_libs/jquery-cdn.js"></script>
+<script src="./external_libs/materialize.min.js"></script>
+<script src="place.js"></script>
+
+<!--********************************** NAV BAR *******************************************-->
+<div class="row" style="height:40px;">
+    <nav class="nav">
+        <div class="nav-wrapper">
+
+            <a href="#" class="brand-logo"><img src="./media/Jabong_logo_logotype.png" style="border-radius:50%; width:100px;"> </a>
+            <ul class="right">
+                <li>
+                    <a href="pay.html" class="btn card-panel orange  right-align" onClick="sqlinject()">Pay</a>
+                </li>
+            </ul>
+            <
+        </div>
+    </nav>
+</div>
+
+
+<!--************************************ SHOPPING DETAILS******************************************-->
+
+<div class="row sd">
+    <div class="col s8">
+        <div class="row sd1">
+            <div class=" col s4"><a>Continue Shopping</a></div>
+             <div class="col s5"><a class="black-text">Your Shopping Bag [ <span class="items">0</span>]</a></div>
+             <div class="col s3"><a>Check Info Delivery</a></div>
+        </div>
+        <div class="row sd2">
+            <div class=" offset-s1 col s10 grey-text card-panel yellow lighten-5 sd3"><span style="padding: 5px;">Buy now pay later in easy installments.EMI available on all major credit cards. Min order Rs. 3000.</span></div>
+        </div>
+
+        <table class="responsive-table">
+            <thead>
+            <tr>
+                <th class="left-align">Products</th>
+                <th class="right-align">Delivery By</th>
+                <th class="right-align">Quantity</th>
+                <th class="right-align">Total Amount(per unit)</th>
+                <th class="right-align">Delete</th>
+            </tr>
+            </thead>
+
+            <tbody class="tableBody">
+            </tbody>
+        </table>
+
+        <div class="row" style="border-top:1px solid lightgray">
+            <div class=" col s3 btn card-panel orange lighten-1 netAmt">Net Amount</div>
+            <div class="offset-s7 col s2 btn card-panel teal amt"></div>
+        </div>
+    </div>
+
+    <div class="col s3"><img class=loaded1" src="./media/coupon.jpg" style="height:400px;"></div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+</body>
+</html>

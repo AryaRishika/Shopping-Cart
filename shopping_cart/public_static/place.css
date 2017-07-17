@@ -1,0 +1,21 @@
+.nav {
+    position:fixed;
+    background-color: #fffff9;
+    height:60px;
+}
+.sd{
+
+    margin-top:50px;
+}
+.sd2{
+
+    border:1px solid #ffc952;
+    background-color: #ffebb7;
+}
+.amt{
+    visibility: hidden;
+}
+.sd3{
+
+
+}

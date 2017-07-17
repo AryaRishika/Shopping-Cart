@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./external_libs/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+    <link rel="stylesheet" href="clothing.css">
+
+</head>
+<body>
+<script src="./external_libs/jquery-cdn.js"></script>
+<script src="./external_libs/materialize.min.js"></script>
+<script src="clothing.js"></script>
+<!-- ***********************  NAVIGATION BAR  ******************* -->
+<div class="row" style="height:40px;">
+    <nav class="nav">
+        <div class="nav-wrapper">
+
+            <a href="#" class="brand-logo"><img src="./media/Jabong_logo_logotype.png" style="border-radius:50%; width:100px;"> </a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="#">Clothings</a></li>
+                <li><a href="#acce">Accessories</a></li>
+                <li><a href="#cosmetics">Cosmetics</a></li>
+                <li><a href="#clothing">Clothings</a></li>
+            </ul>
+
+            <ul id="nav-mobile1" class="right hide-on-med-and-down">
+                <li><a href="" class="grey-text darken-1 track">Track Order</a></li>
+                <li><a href="" class="grey-text darken-1">Help </a></li>
+                <li>
+
+                    <div class="offset-s1 col s11 android tooltipped" data-position="bottom" data-delay="50" data-tooltip="Not Available">
+
+                    <a href="#" class="btn card-panel yellow darken-3 white-text">Upgrade</a>
+
+
+
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./media/yellow-shopping-bag-png-image-100790.png" style="border-radius:50%; width:80px; height:60px;">
+                        <span class="new badge card-panel red nb" data-badge-caption=""><span class="items">0</span></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</div>
+
+<div class="row">
+<div class="offset-s5 col s6 ">
+    <a href="place_order.html"><div class="btn card-panel deep-orange center-align" >PLACE ORDER</div></a>
+</div>
+</div>
+<!--******************************* ADIDAS  *************************************-->
+
+
+<div class="row" id="adidas">
+    <div class=" offset-s2 col s10 display">
+
+
+        <div class="box">
+            <img class="loaded1" src="https://static2.jassets.com/p/Adidas-City-Blr-Black-Training-Round-Neck-T-Shirt-7282-999560003-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info">ADIDAS City Blr Black Cl Dark</div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.2499</div>
+                </div>
+                <span class="product_price">Rs. 1500</span>
+                <span class="red-text">(-40%)</span>
+            </div>
+            <div class="btn-flat card-panel teal product" id="adi1" onClick="addToCart(this.id)">Add To Cart</div>
+
+        </div>
+
+
+        <div class="box">
+            <img class="loaded1" src="https://static2.jassets.com/p/Adidas-Neo-Sd-Bow-Light-Grey-Round-Neck-T-Shirt-3123-048290003-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info center-align">ADIDAS Neo Sd Light </div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.1399</div>
+                </div>
+                <span class="product_price">Rs. 840</span>
+                <span class="red-text">(-40%)</span>
+            </div>
+            <div class="btn-flat card-panel teal" id="adi2" onClick="addToCart(this.id)">Add To Cart</div>
+
+        </div>
+
+
+        <div class="box">
+            <img class="loaded1" src="https://static3.jassets.com/p/Adidas-Galaxy-3-Black-Running-Shoes-2925-4930092-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info center-align">ADIDAS Galaxy 3 Black </div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.5999</div>
+                </div>
+                <span class="product_price">Rs. 3300</span>
+                <span class="red-text">(-45%)</span>
+            </div>
+            <div class="btn-flat card-panel teal" id="adi3" onClick="addToCart(this.id)">Add To Cart</div>
+
+        </div>
+        <div class="box">
+            <img class="loaded1" src="https://static2.jassets.com/p/Adidas-Freelift-Cl-Black-Training-Round-Neck-T-Shirt-4580-017510003-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info center-align">ADIDAS Freelift Cl Black </div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.1299</div>
+                </div>
+                <span class="product_price">Rs. 715</span>
+                <span class="red-text">(-45%)</span>
+            </div>
+            <div class="btn-flat card-panel teal" id="adi4" onClick="addToCart(this.id)">Add To Cart</div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--*************************************  NIKE  ***********************************************-->
+
+<div class="row" id="nike">
+    <div class=" offset-s2 col s10 display">
+
+
+        <div class="box">
+            <img class="loaded1" src="https://static2.jassets.com/p/Nike-As-Nsw-Pq-Matchp-Navy-Blue-Polo-T-Shirt-2165-660100003-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info">NIKE City Blr Black Cl Dark</div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.2499</div>
+                </div>
+                <span class="product_price">Rs. 1500</span>
+                <span class="red-text">(-40%)</span>
+            </div>
+            <div class="btn-flat card-panel teal" id="nike1" onClick="addToCart(this.id)">Add To Cart</div>
+
+        </div>
+
+
+        <div class="box">
+            <img class="out_of_stock" src="https://static4.jassets.com/p/Nike-As-Legend-2-0-Ss-Blue-Round-Neck-T-Shirt-6915-4379453-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info center-align">NIKE Neo Sd Light </div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.1399</div>
+                </div>
+                <span class="product_price">Rs. 840</span>
+                <span class="red-text">(-40%)</span>
+            </div>
+            <div class="btn-flat card-panel red" id="nike2" onClick="addToCart(this.id)">Out Of Stock</div>
+
+        </div>
+
+
+        <div class="box">
+            <img class="loaded1" src="https://static1.jassets.com/p/Nike-Fcb-Dry-Stad-Jsy-Ss-3R-Aqua-Blue-Football-Sports-Jersey-6447-8032882-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info center-align">NIKE Galaxy 3 Black </div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.5999</div>
+                </div>
+                <span class="product_price">Rs. 3300</span>
+                <span class="red-text">(-45%)</span>
+            </div>
+            <div class="btn-flat card-panel teal" id="nike3" onClick="addToCart(this.id)">Add To Cart</div>
+
+        </div>
+
+
+        <div class="box">
+            <img class="loaded1" src="https://static1.jassets.com/p/Nike-Mercurialx-Victory-Vi-Tf-Blue-Football-Shoes-6119-3424882-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info center-align">NIKE Freelift Cl Black </div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.1299</div>
+                </div>
+                <span class="product_price">Rs. 715</span>
+                <span class="red-text">(-45%)</span>
+            </div>
+            <div class="btn-flat card-panel teal" id="nike4" onClick="addToCart(this.id)">Add To Cart</div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--************************************ W ************************************-->
+
+
+<div class="row" id="w">
+    <div class=" offset-s2 col s10 display">
+
+
+        <div class="box">
+            <img class="loaded1" src="https://static4.jassets.com/p/W-Off-White-Printed-Kurta-3484-4338353-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info">W City Blr Black Cl Dark</div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.2499</div>
+                </div>
+                <span class="product_price">Rs. 1500</span>
+                <span class="red-text">(-40%)</span>
+            </div>
+            <div class="btn-flat card-panel teal" id="w1" onClick="addToCart(this.id)">Add To Cart</div>
+
+        </div>
+
+
+        <div class="box">
+            <img class="loaded1" src="https://static2.jassets.com/p/W-Off-White-Printed-Kurta-8948-765170003-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info center-align">W Neo Sd Light </div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.1399</div>
+                </div>
+                <span class="product_price">Rs. 840</span>
+                <span class="red-text">(-40%)</span>
+            </div>
+            <div class="btn-flat card-panel teal" id="w2" onClick="addToCart(this.id)">Add To Cart</div>
+        </div>
+
+
+        <div class="box">
+            <img class="out_of_stock" src="https://static2.jassets.com/p/W-Multicoloured-Printed-Polyester-Kurta-5899-339070003-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info center-align">W Galaxy 3 Black </div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.5999</div>
+                </div>
+                <span class="product_price">Rs. 3300</span>
+                <span class="red-text">(-45%)</span>
+            </div>
+            <div class="btn-flat card-panel red" id="w3" onClick="addToCart(this.id)">Out Of Stock</div>
+        </div>
+
+
+        <div class="box">
+            <img class="loaded1" src="https://static2.jassets.com/p/W-Beige-Solid-Polyester-Shift-Dress-1464-260840003-1-catalog_s.webp">
+            <div class="row">
+                <div class="cols 3 product_info center-align">W Freelift Cl Black </div>
+            </div>
+            <div style="margin-top:-14px;">
+                <div class="row" style="display: inline-block;">
+                    <div class="cols 3 product_cut">Rs.1299</div>
+                </div>
+                <span class="product_price">Rs. 715</span>
+                <span class="red-text">(-45%)</span>
+            </div>
+            <div class="btn-flat card-panel teal" id="w4" onClick="addToCart(this.id)">Add To Cart</div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
